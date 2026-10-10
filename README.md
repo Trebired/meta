@@ -15,6 +15,7 @@ This repository owns the wording, the structure, and the effective date of each 
 | `acceptable-use` | What is and is not allowed on the services the organization operates |
 | `security` | How to report a vulnerability and what the reporter receives in return |
 | `code-of-conduct` | What is expected of everyone in the organization's spaces, and what happens when it is breached |
+| `ideology` | What the organization believes, why everything it writes is public, and which machines it builds for |
 
 ## Structure
 
@@ -48,6 +49,8 @@ Another paragraph.
 `title` is the rendered page heading. `updated` is an ISO date and is rendered as the last-updated line. Both are required.
 
 `##` opens a section. A blank line separates paragraphs, and each paragraph becomes one rendered block.
+
+`###` opens a part inside a section, for a document long enough to read in chapters. A section either holds paragraphs of its own or holds parts, never both, and parts do not nest further.
 
 The rendered subset is headings and paragraphs. Lists, tables, bold, italics, links, images, and code blocks are dropped silently, so nothing outside the subset ships.
 
