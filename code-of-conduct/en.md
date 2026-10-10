@@ -41,7 +41,7 @@ Removal from the organization's spaces is not removal from the code. The licence
 
 ## How to report
 
-Write to legal@trebired.com. Say what happened, where, and when, and include anything that shows it. A link to the thread is enough.
+Write to abuse@trebired.com. Say what happened, where, and when, and include anything that shows it. A link to the thread is enough.
 
 A report is read only by the people who have to act on it. The person reported is not told who reported them unless the reporter says that is acceptable.
 

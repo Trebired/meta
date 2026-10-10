@@ -41,7 +41,7 @@ Vyloučení z prostorů organizace není vyloučení z kódu. Licence se neodeb�
 
 ## Jak to nahlásit
 
-Pište na legal@trebired.com. Napište, co se stalo, kde a kdy, a přiložte, čím to doložíte. Odkaz na vlákno stačí.
+Pište na abuse@trebired.com. Napište, co se stalo, kde a kdy, a přiložte, čím to doložíte. Odkaz na vlákno stačí.
 
 Hlášení čtou jen lidé, kteří podle něj musí jednat. Nahlášenému se neříká, kdo ho nahlásil, pokud oznamovatel neřekne, že to je v pořádku.
 
