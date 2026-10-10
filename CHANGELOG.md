@@ -4,6 +4,10 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 1.1.0
+
+- Added code of conduct in English and Czech.
+
 ## 1.0.0
 
 - Added privacy policy in English and Czech.
