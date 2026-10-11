@@ -4,6 +4,12 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 2.0.0
+
+**Breaking:** `ideology` is renamed to `philosophy`. The folder, and with it the route every consumer serves it at, changes from `/ideology` to `/philosophy`. A consumer that still asks for the old slug gets nothing back.
+
+- Renamed ideology to philosophy in English and Czech. The text is unchanged.
+
 ## 1.2.0
 
 - Added ideology in English and Czech, written in chapters.

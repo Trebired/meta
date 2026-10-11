@@ -15,7 +15,7 @@ This repository owns the wording, the structure, and the effective date of each 
 | `acceptable-use` | What is and is not allowed on the services the organization operates |
 | `security` | How to report a vulnerability and what the reporter receives in return |
 | `code-of-conduct` | What is expected of everyone in the organization's spaces, and what happens when it is breached |
-| `ideology` | What the organization believes, why everything it writes is public, and which machines it builds for |
+| `philosophy` | What the organization believes, why everything it writes is public, and which machines it builds for |
 
 ## Structure
 

@@ -1,6 +1,6 @@
 ---
-title: Ideologie
-updated: 2026-10-10
+title: Filozofie
+updated: 2026-10-11
 ---
 
 ## Proč je všechno veřejné

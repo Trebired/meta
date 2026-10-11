@@ -1,6 +1,6 @@
 ---
-title: Ideology
-updated: 2026-10-10
+title: Philosophy
+updated: 2026-10-11
 ---
 
 ## Why all of it is public
