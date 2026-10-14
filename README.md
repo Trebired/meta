@@ -16,6 +16,7 @@ This repository owns the wording, the structure, and the effective date of each 
 | `security` | How to report a vulnerability and what the reporter receives in return |
 | `code-of-conduct` | What is expected of everyone in the organization's spaces, and what happens when it is breached |
 | `philosophy` | What the organization believes, why everything it writes is public, and which machines it builds for |
+| `faq` | The questions that arrive most often about working with the organization, what a client gets, and what is kept |
 
 ## Structure
 
@@ -52,7 +53,17 @@ Another paragraph.
 
 `###` opens a part inside a section, for a document long enough to read in chapters. A section either holds paragraphs of its own or holds parts, never both, and parts do not nest further.
 
-The rendered subset is headings and paragraphs. Lists, tables, bold, italics, links, images, and code blocks are dropped silently, so nothing outside the subset ships.
+The rendered subset is headings and paragraphs. Lists, tables, bold, italics, images, and code blocks are dropped silently, so nothing outside the subset ships.
+
+A link is the one exception, and it is written so that it shows nothing here. A markdown link cannot be used: a path like `/privacy` is relative, so a repository page renders it as a visible link to a page that does not exist there. A span is marked with a comment pair instead, which every markdown renderer hides:
+
+```md
+Read <!--tbf:link /philosophy-->the philosophy page<!--/tbf:link--> for why.
+Get it from <!--tbf:link https://github.com/Trebired tab-->GitHub<!--/tbf:link-->.
+Start at <!--tbf:link /downloads reload-->the downloads page<!--/tbf:link-->.
+```
+
+The first token after the marker is the destination and is required. `tab` opens the link in a new tab; `reload` makes the consumer navigate fully instead of swapping the page in place. A missing destination, an unknown flag or an unclosed pair drops the link and renders the words plainly, so a mistake costs a link and never a sentence. Consumers that do not understand the markers show the text and nothing else, which is the same thing a reader of this repository sees.
 
 ## Language
 

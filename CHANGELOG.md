@@ -4,6 +4,11 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 2.3.0
+
+- Added FAQ in English and Czech: twelve questions in four sections, covering what a project costs, what a client owns, what is published, and what is kept about a reader.
+- Documents may link to a page without showing anything to a reader of this repository. A span marked with a `<!--tbf:link /path-->` comment pair becomes a link in a consumer that understands it and plain words everywhere else, which a relative markdown link cannot do, because a repository page renders it as a link to a page that does not exist. The Format section states the whole of it.
+
 ## 2.2.0
 
 - Added four chapters to philosophy in English and Czech: what the organization writes software in and why, what software is allowed to cost the machine it runs on, why the layer under the products is built in house, and who answers for work a model helped write.
