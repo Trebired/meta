@@ -51,6 +51,8 @@ Another paragraph.
 
 `parts` is optional and says how a consumer presents the `###` parts of this document: `prose`, the default, for articles that are read in order, or `disclosure` for an accordion, where each part is a question the reader opens. A document states this itself so that no consumer has to recognise it by its folder name.
 
+`outline` is optional and takes `false` when a document does not want the section navigator a consumer puts beside long documents. A document whose sections are read one by one, such as a list of questions, says so here rather than leaving the decision to the page that renders it.
+
 Paragraphs written before the first `##` are the document's lead, and a consumer may show them under the title.
 
 `##` opens a section. A blank line separates paragraphs, and each paragraph becomes one rendered block.

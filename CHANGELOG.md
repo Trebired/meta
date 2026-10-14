@@ -4,6 +4,10 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 2.5.0
+
+- A document can refuse the section navigator. `outline: false` in the front matter says the document is read straight through, and `faq` declares it: its sections are four groups of questions, not chapters to jump between.
+
 ## 2.4.0
 
 - A document now says how it is presented. FAQ carries `parts: disclosure` in its front matter, so a consumer renders it as an accordion because the document asks for it rather than because the consumer recognises the folder name. Everything without the key is read as prose, which is every other document here.

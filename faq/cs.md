@@ -1,6 +1,7 @@
 ---
 title: Časté dotazy
 updated: 2026-10-14
+outline: false
 parts: disclosure
 ---
 
