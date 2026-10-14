@@ -4,6 +4,11 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 2.2.0
+
+- Added four chapters to philosophy in English and Czech: what the organization writes software in and why, what software is allowed to cost the machine it runs on, why the layer under the products is built in house, and who answers for work a model helped write.
+- Changed the Windows chapter in philosophy in English and Czech. Compatibility is named as the one thing holding the system up, and consumer habit as what is left once it is set aside.
+
 ## 2.1.0
 
 - Cookie policy now names accessibility settings among what a browser stores. The animation, text size and contrast choices offered in the site header are kept in the browser and never sent to Trebired, and the clearing paragraph says they go with site data.
