@@ -4,6 +4,10 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 2.1.0
+
+- Cookie policy now names accessibility settings among what a browser stores. The animation, text size and contrast choices offered in the site header are kept in the browser and never sent to Trebired, and the clearing paragraph says they go with site data.
+
 ## 2.0.0
 
 **Breaking:** `ideology` is renamed to `philosophy`. The folder, and with it the route every consumer serves it at, changes from `/ideology` to `/philosophy`. A consumer that still asks for the old slug gets nothing back.

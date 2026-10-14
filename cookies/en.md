@@ -1,6 +1,6 @@
 ---
 title: Cookie policy
-updated: 2026-10-07
+updated: 2026-10-11
 ---
 
 ## The short version
@@ -14,6 +14,8 @@ The only storage we use is what a page needs to work, and it stays in your brows
 A chosen interface language, so reloading a page does not throw you back to the default.
 
 Short-lived session state while you are signed in to a product that requires an account.
+
+Your accessibility settings, meaning the animation, text size and contrast choices offered in the header, so a page does not reset them every time you open it. These are stored in your browser and never sent to us.
 
 Nothing else. We store no visitor identifier, and we build no profile from what you read.
 
@@ -31,7 +33,7 @@ Where a product embeds something you asked for, such as a map, that embed is nam
 
 ## Clearing what we store
 
-Clearing site data in your browser removes everything we hold on your device. Nothing we keep elsewhere depends on it, so clearing it costs you nothing beyond a language choice.
+Clearing site data in your browser removes everything we hold on your device. Nothing we keep elsewhere depends on it, so clearing it costs you nothing beyond a language choice and your accessibility settings.
 
 ## Questions
 
