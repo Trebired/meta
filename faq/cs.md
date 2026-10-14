@@ -1,7 +1,10 @@
 ---
 title: Časté dotazy
 updated: 2026-10-14
+parts: disclosure
 ---
+
+Otázky, které chodí nejčastěji, zodpovězené stejně, jako by přišly v e-mailu.
 
 ## Spolupráce
 

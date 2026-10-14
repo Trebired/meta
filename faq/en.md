@@ -1,7 +1,10 @@
 ---
 title: FAQ
 updated: 2026-10-14
+parts: disclosure
 ---
+
+The questions that arrive most often, answered the way they would be answered in an email.
 
 ## Working together
 

@@ -4,6 +4,11 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 2.4.0
+
+- A document now says how it is presented. FAQ carries `parts: disclosure` in its front matter, so a consumer renders it as an accordion because the document asks for it rather than because the consumer recognises the folder name. Everything without the key is read as prose, which is every other document here.
+- FAQ gained a lead paragraph. Paragraphs before the first section are the document's lead, and a consumer may show them under the title.
+
 ## 2.3.0
 
 - Added FAQ in English and Czech: twelve questions in four sections, covering what a project costs, what a client owns, what is published, and what is kept about a reader.

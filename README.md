@@ -49,6 +49,10 @@ Another paragraph.
 
 `title` is the rendered page heading. `updated` is an ISO date and is rendered as the last-updated line. Both are required.
 
+`parts` is optional and says how a consumer presents the `###` parts of this document: `prose`, the default, for articles that are read in order, or `disclosure` for an accordion, where each part is a question the reader opens. A document states this itself so that no consumer has to recognise it by its folder name.
+
+Paragraphs written before the first `##` are the document's lead, and a consumer may show them under the title.
+
 `##` opens a section. A blank line separates paragraphs, and each paragraph becomes one rendered block.
 
 `###` opens a part inside a section, for a document long enough to read in chapters. A section either holds paragraphs of its own or holds parts, never both, and parts do not nest further.
