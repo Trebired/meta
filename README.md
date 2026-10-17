@@ -19,7 +19,10 @@ This repository owns the wording, the structure, and the effective date of each 
 | `faq` | The questions that arrive most often about working with the organization, what a client gets, and what is kept |
 | `standards` | The requirements every change has to pass, what the software has to be, and what happens when something fails them |
 | `handbook` | How the organization works day to day: how work is chosen, how it is built, and how it is handed over |
-| `roadmap-initial-release` | A roadmap entry: what the organization is building, with the status and colour a consumer renders it in |
+| `roadmap-initial-release` | A roadmap entry: the organization and its website going public together |
+| `roadmap-search-visibility` | A roadmap entry: making the published pages findable without buying placement |
+| `roadmap-social-presence` | A roadmap entry: holding the organization's name where software is discussed, and announcing releases there |
+| `roadmap-product-development` | A roadmap entry: Operlorn and Sessionary resuming once the initial release is out |
 
 ## Structure
 

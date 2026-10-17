@@ -4,6 +4,11 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 2.7.0
+
+- Added three roadmap entries. `roadmap-search-visibility` covers making the published pages legible to the machines that index them, without paying for placement. `roadmap-social-presence` covers holding the organization's name on the sites where software is discussed and announcing releases there. `roadmap-product-development` covers Operlorn and Sessionary resuming once the initial release is out.
+- The Documents table names each roadmap entry by what it covers. One generic row described the shape of an entry, which the Format section already states and which stops being useful once there is more than one entry.
+
 ## 2.6.0
 
 - Added `standards` in English and Czech: what every change has to pass before it ships, what the software itself has to be, what a reader is owed, and what happens when something fails any of it. The text was written in the website that rendered it, which is the wrong place for words another repository may need to quote.
