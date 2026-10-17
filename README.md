@@ -17,6 +17,9 @@ This repository owns the wording, the structure, and the effective date of each 
 | `code-of-conduct` | What is expected of everyone in the organization's spaces, and what happens when it is breached |
 | `philosophy` | What the organization believes, why everything it writes is public, and which machines it builds for |
 | `faq` | The questions that arrive most often about working with the organization, what a client gets, and what is kept |
+| `standards` | The requirements every change has to pass, what the software has to be, and what happens when something fails them |
+| `handbook` | How the organization works day to day: how work is chosen, how it is built, and how it is handed over |
+| `roadmap-initial-release` | A roadmap entry: what the organization is building, with the status and colour a consumer renders it in |
 
 ## Structure
 
@@ -52,6 +55,8 @@ Another paragraph.
 `parts` is optional and says how a consumer presents the `###` parts of this document: `prose`, the default, for articles that are read in order, or `disclosure` for an accordion, where each part is a question the reader opens. A document states this itself so that no consumer has to recognise it by its folder name.
 
 `outline` is optional and takes `false` when a document does not want the section navigator a consumer puts beside long documents. A document whose sections are read one by one, such as a list of questions, says so here rather than leaving the decision to the page that renders it.
+
+`status` and `color` belong to a roadmap entry and to nothing else. `status` is one of `in-progress`, `next`, `later` or `done`, and a consumer renders the word in its own language. `color` is a hex colour the consumer paints that status in, so the entry decides how it reads rather than the page it appears on. A roadmap entry is the one document shape with no `##` at all: its whole body is the lead, which is the description, and its folder is named `roadmap-<entry>` because an entry is not served at a route of its own.
 
 Paragraphs written before the first `##` are the document's lead, and a consumer may show them under the title.
 

@@ -4,6 +4,12 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 2.6.0
+
+- Added `standards` in English and Czech: what every change has to pass before it ships, what the software itself has to be, what a reader is owed, and what happens when something fails any of it. The text was written in the website that rendered it, which is the wrong place for words another repository may need to quote.
+- Added `handbook` in English and Czech: how the work is chosen, built and handed over, in the same four-section shape.
+- Added the first roadmap entry, `roadmap-initial-release`. A roadmap entry is a document with two more front matter keys, `status` and `color`, and no sections: its body is the description. `status` says where the entry stands and `color` says what a consumer paints it, so the entry carries its own appearance instead of the page deciding. The Format section states both.
+
 ## 2.5.0
 
 - A document can refuse the section navigator. `outline: false` in the front matter says the document is read straight through, and `faq` declares it: its sections are four groups of questions, not chapters to jump between.
