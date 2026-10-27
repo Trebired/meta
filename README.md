@@ -1,8 +1,8 @@
 # Trebired Meta
 
-The published documents of the Trebired organization, in English and Czech, as the single source every consuming site reads at build time.
+The published documents and the brand of the Trebired organization, as the single source every consuming site reads at build time. The documents are in English and Czech; the brand is the logos and colours.
 
-This repository owns the wording, the structure, and the effective date of each policy in it. Consumers own their routing, their rendering, and their fallback behaviour. It does not own licence texts, which ship in the repository of the software they cover, and it does not own client contracts, which exist per engagement and are not published.
+This repository owns the wording, the structure, and the effective date of each policy in it, and the logos and colours of the brand. Consumers own their routing, their rendering, and their fallback behaviour. It does not own licence texts, which ship in the repository of the software they cover, and it does not own client contracts, which exist per engagement and are not published.
 
 ## Documents
 
@@ -13,16 +13,13 @@ This repository owns the wording, the structure, and the effective date of each 
 | `terms` | The terms covering every site, product, and server the organization runs |
 | `trademark` | The marks the organization claims and the conditions for using them |
 | `acceptable-use` | What is and is not allowed on the services the organization operates |
-| `security` | How to report a vulnerability and what the reporter receives in return |
 | `code-of-conduct` | What is expected of everyone in the organization's spaces, and what happens when it is breached |
 | `philosophy` | What the organization believes, why everything it writes is public, and which machines it builds for |
 | `faq` | The questions that arrive most often about working with the organization, what a client gets, and what is kept |
-| `standards` | The requirements every change has to pass, what the software has to be, and what happens when something fails them |
-| `handbook` | How the organization works day to day: how work is chosen, how it is built, and how it is handed over |
-| `roadmap-initial-release` | A roadmap entry: the organization and its website going public together |
-| `roadmap-search-visibility` | A roadmap entry: making the published pages findable without buying placement |
-| `roadmap-social-presence` | A roadmap entry: holding the organization's name where software is discussed, and announcing releases there |
-| `roadmap-product-development` | A roadmap entry: Operlorn and Sessionary resuming once the initial release is out |
+| `roadmap/initial-release` | A roadmap entry: the organization and its website going public together |
+| `roadmap/search-visibility` | A roadmap entry: making the published pages findable without buying placement |
+| `roadmap/social-presence` | A roadmap entry: holding the organization's name where software is discussed, and announcing releases there |
+| `roadmap/product-development` | A roadmap entry: Operlorn and Sessionary resuming once the initial release is out |
 
 ## Structure
 
@@ -30,7 +27,16 @@ This repository owns the wording, the structure, and the effective date of each 
 <document>/
   en.md
   cs.md
+roadmap/
+  <entry>/
+    en.md
+    cs.md
+brand/
+  brand.json
+  logos/
 ```
+
+Everything of one kind lives in one folder. Roadmap entries are folders inside `roadmap/`, and the brand is `brand/`.
 
 The folder name is the consumer-facing slug in kebab-case. `privacy/` is served at `/privacy`, `acceptable-use/` at `/acceptable-use`. Renaming a folder breaks every consumer route that points at it.
 
@@ -59,7 +65,7 @@ Another paragraph.
 
 `outline` is optional and takes `false` when a document does not want the section navigator a consumer puts beside long documents. A document whose sections are read one by one, such as a list of questions, says so here rather than leaving the decision to the page that renders it.
 
-`status` and `color` belong to a roadmap entry and to nothing else. `status` is one of `in-progress`, `next`, `later` or `done`, and a consumer renders the word in its own language. `color` is a hex colour the consumer paints that status in, so the entry decides how it reads rather than the page it appears on. A roadmap entry is the one document shape with no `##` at all: its whole body is the lead, which is the description, and its folder is named `roadmap-<entry>` because an entry is not served at a route of its own.
+`status` and `color` belong to a roadmap entry and to nothing else. `status` is one of `in-progress`, `next`, `later` or `done`, and a consumer renders the word in its own language. `color` is a hex colour the consumer paints that status in, so the entry decides how it reads rather than the page it appears on. A roadmap entry is the one document shape with no `##` at all: its whole body is the lead, which is the description, and it lives in `roadmap/<entry>/` because an entry is not served at a route of its own.
 
 Paragraphs written before the first `##` are the document's lead, and a consumer may show them under the title.
 
@@ -79,6 +85,24 @@ Start at <!--tbf:link /downloads reload-->the downloads page<!--/tbf:link-->.
 
 The first token after the marker is the destination and is required. `tab` opens the link in a new tab; `reload` makes the consumer navigate fully instead of swapping the page in place. A missing destination, an unknown flag or an unclosed pair drops the link and renders the words plainly, so a mistake costs a link and never a sentence. Consumers that do not understand the markers show the text and nothing else, which is the same thing a reader of this repository sees.
 
+## Brand
+
+`brand/brand.json` names the brand, its two colours and every logo, by path inside `brand/`:
+
+```json
+{
+  "name": "Trebired",
+  "colors": { "dark": "#000000ff", "light": "#f5f5f5ff" },
+  "logos": {
+    "full": { "dark": "logos/full/dark.svg", "light": "logos/full/light.svg" },
+    "full-tm": { "dark": "logos/full/tm/dark.svg", "light": "logos/full/tm/light.svg" },
+    "minimal": { "dark": "logos/minimal/dark.svg", "light": "logos/minimal/light.svg" }
+  }
+}
+```
+
+The colours are hex with alpha. `full` is the mark with the name, `full-tm` the same with the trademark sign, and `minimal` the mark alone. A logo's `dark` file is drawn for a dark background and its `light` file for a light one. Consumers read the logos from here at build time and keep no copy of their own, so a logo changes everywhere by changing it here.
+
 ## Language
 
 Every document ships in English and Czech, carrying the same sections in the same order.
@@ -89,7 +113,7 @@ Each language is written, never translated from the other. An idiom that works i
 
 ## Consumption
 
-Consuming sites read the raw files at build time and fall back to their committed snapshot when the fetch fails, so a network failure never breaks a build.
+Consuming sites read the raw files at build time and fall back to what their last build fetched when the fetch fails, so a network failure never breaks a build.
 
 A change reaches a site on its next deploy, not immediately. A document that must take effect on a date is merged before that date, not on it.
 

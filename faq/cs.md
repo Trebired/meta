@@ -1,6 +1,6 @@
 ---
 title: Časté dotazy
-updated: 2026-10-14
+updated: 2026-10-18
 outline: false
 parts: disclosure
 ---
@@ -29,7 +29,7 @@ Váš obsah, vaše data, vaše doména i vaše přístupy jsou vaše a vždycky 
 
 ### Můžete to nechat neveřejné
 
-Ne. Všechno, co tu vznikne, se zveřejňuje jako open source a souhlas s tím je podmínka spolupráce. Není verze s výjimkou, se soukromým repozitářem ani s odkladem na později. Váš obsah, vaše data a vaše přístupy zůstávají soukromé; kód, který je obsluhuje, je veřejný. <!--tbf:link /philosophy-->Filozofie<!--/tbf:link--> vysvětluje, proč ta čára vede tudy.
+Ne. Všechno, co tu vznikne, se zveřejňuje jako open source a souhlas s tím je podmínka spolupráce. Není verze s výjimkou, se soukromým repozitářem ani s odkladem na později. Veřejný repozitář může ležet pod vaším vlastním účtem na GitHubu, nebo pod naším; doporučujeme náš, kde leží vedle balíčků, ze kterých je postavený, a prochází stejnými kontrolami jako všechno ostatní, co provozujeme. Váš obsah, vaše data a vaše přístupy zůstávají soukromé; kód, který je obsluhuje, je veřejný. <!--tbf:link /philosophy-->Filozofie<!--/tbf:link--> vysvětluje, proč ta čára vede tudy.
 
 ### Kdo to pak bude udržovat
 
@@ -43,7 +43,7 @@ Cokoli stavěného pro prohlížeč funguje všude, kde je prohlížeč, tedy i 
 
 ### Co brání tomu, aby to bylo odbyté
 
-Program, ne slib. Musí sedět typy, nástroj na kázeň musí schválit tvar kódu, musí proběhnout ověřovací skripty a celek se musí sestavit; co některou z těch věcí neprojde, se dovnitř nedostane. <!--tbf:link /standards-->Standardy<!--/tbf:link--> vypisují, čím musí projít každá změna, a <!--tbf:link /handbook-->příručka<!--/tbf:link--> popisuje, jak organizace funguje den po dni.
+Program, ne slib. Musí sedět typy, nástroj na kázeň musí schválit tvar kódu, musí proběhnout ověřovací skripty a celek se musí sestavit; co některou z těch věcí neprojde, se dovnitř nedostane. <!--tbf:link /standards-->Standardy<!--/tbf:link--> vypisují, čím musí projít každá změna, a <!--tbf:link /handbook-->příručka<!--/tbf:link--> popisuje, jak se práce staví a vydává.
 
 ### Co bude, když Trebired skončí
 

@@ -1,0 +1,21 @@
+{
+  "name": "Trebired",
+  "colors": {
+    "dark": "#000000ff",
+    "light": "#f5f5f5ff"
+  },
+  "logos": {
+    "full": {
+      "dark": "logos/full/dark.svg",
+      "light": "logos/full/light.svg"
+    },
+    "full-tm": {
+      "dark": "logos/full/tm/dark.svg",
+      "light": "logos/full/tm/light.svg"
+    },
+    "minimal": {
+      "dark": "logos/minimal/dark.svg",
+      "light": "logos/minimal/light.svg"
+    }
+  }
+}

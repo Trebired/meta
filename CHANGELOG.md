@@ -4,6 +4,16 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 3.0.0
+
+- Moved every roadmap entry into `roadmap/`. `roadmap-initial-release` is now `roadmap/initial-release`, and the same for `search-visibility`, `social-presence` and `product-development`, so a consumer that reads the old folders breaks.
+- Added the brand. `brand/brand.json` names the brand, its two colours, `#000000ff` and `#f5f5f5ff`, and every logo: `full`, `full-tm` and `minimal`, each for a dark and a light background, under `brand/logos/`. Consumers read the logos from here instead of keeping copies.
+- Removed `standards`. The website's standards page now carries the standard itself, so the `standards` folder no longer exists and a consumer that reads it breaks.
+- Removed `handbook`. The website's handbook page now carries the handbook itself, so the `handbook` folder no longer exists and a consumer that reads it breaks.
+- Removed `security`. The website's security page now carries the policy itself, so the `security` folder no longer exists and a consumer that reads it breaks.
+- `faq` describes the handbook as how the work is built and released, which is what it covers.
+- `faq` says where a client's public repository lives: under the client's own GitHub account or under the organization's, with the organization's recommended.
+
 ## 2.7.0
 
 - Added three roadmap entries. `roadmap-search-visibility` covers making the published pages legible to the machines that index them, without paying for placement. `roadmap-social-presence` covers holding the organization's name on the sites where software is discussed and announcing releases there. `roadmap-product-development` covers Operlorn and Sessionary resuming once the initial release is out.

@@ -1,6 +1,6 @@
 ---
 title: FAQ
-updated: 2026-10-14
+updated: 2026-10-18
 outline: false
 parts: disclosure
 ---
@@ -29,7 +29,7 @@ Your content, your data, your domain and your credentials are yours and always w
 
 ### Can you keep it private
 
-No. Everything built here is published as open source, and agreeing to that is the condition of working with us. There is no version with an exception, a private repository, or a delay until later. Your content, your data and your credentials stay private; the code that runs them is public. <!--tbf:link /philosophy-->Philosophy<!--/tbf:link--> explains why that line sits where it does.
+No. Everything built here is published as open source, and agreeing to that is the condition of working with us. There is no version with an exception, a private repository, or a delay until later. The public repository can live under your own GitHub account or under ours; we recommend ours, where it sits beside the packages it is built from and goes through the same checks as everything else we run. Your content, your data and your credentials stay private; the code that runs them is public. <!--tbf:link /philosophy-->Philosophy<!--/tbf:link--> explains why that line sits where it does.
 
 ### Who maintains it afterwards
 
@@ -43,7 +43,7 @@ Anything built for a browser works wherever a browser does, including on Windows
 
 ### What stops it from being sloppy
 
-A program, not a promise. Types have to check, a discipline tool has to approve the shape of the code, the verification scripts have to run, and the whole thing has to build; work that fails any of them does not land. <!--tbf:link /standards-->Standards<!--/tbf:link--> lists what every change has to pass and <!--tbf:link /handbook-->handbook<!--/tbf:link--> describes how the organization runs day to day.
+A program, not a promise. Types have to check, a discipline tool has to approve the shape of the code, the verification scripts have to run, and the whole thing has to build; work that fails any of them does not land. <!--tbf:link /standards-->Standards<!--/tbf:link--> lists what every change has to pass and <!--tbf:link /handbook-->handbook<!--/tbf:link--> describes how the work is built and released.
 
 ### What happens if Trebired disappears
 
