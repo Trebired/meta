@@ -4,6 +4,10 @@ All notable changes to Trebired Meta will be documented here.
 
 This repository follows semantic versioning.
 
+## 3.0.1
+
+- Fixed the minimal logo for dark backgrounds, `brand/logos/minimal/dark.svg`, drawing a thin black line along its left edge. The file still carried a black copy of the mark from editing, placed just outside the view box, and its edge showed. It is replaced with a clean drawing of the mark alone.
+
 ## 3.0.0
 
 - Moved every roadmap entry into `roadmap/`. `roadmap-initial-release` is now `roadmap/initial-release`, and the same for `search-visibility`, `social-presence` and `product-development`, so a consumer that reads the old folders breaks.
